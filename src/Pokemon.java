@@ -6,13 +6,29 @@ private String type;
 public Pokemon (String name, int level) {
     this.name = name;
     this.level = level;
+
 }
 public void setType(String type) {
     this.type = type;
 
 }
 public String getType() {
-    return type;
+      return type;
+}
+public void setName(String name) {
+        this.name = name;
+
+}
+public String getName() {
+        return name;
+}
+public void setLevel(int level) {
+        this.level = level;
+
+}
+public int getLevel() {
+        return level;
 }
 
 }
+
